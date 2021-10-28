@@ -10,13 +10,13 @@ export default {
   output: [
     {
       exports: 'named',
-      name: 'vue-stripe',
+      name: 'vue-stripe-token',
       file: 'dist/index.js',
       format: 'cjs',
     },
     {
       exports: 'named',
-      name: 'VueStripe',
+      name: 'VueStripeToken',
       file: 'dist/vue-stripe.js',
       format: 'umd',
     },
