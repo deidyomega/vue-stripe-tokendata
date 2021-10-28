@@ -144,7 +144,7 @@ export default {
           ...this.element,
         };
         if (this.amount) data.amount = this.amount;
-        const { token, error } = await this.stripe.createToken(data, tokenData);
+        const { token, error } = await this.stripe.createToken(data, this.tokenData);
         if (error) {
           const errorElement = document.getElementById('stripe-element-errors');
           errorElement.textContent = error.message;
