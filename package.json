@@ -1,5 +1,5 @@
 {
-  "name": "@vue-stripe/vue-stripe",
+  "name": "@deidyomega/vue-stripe-tokendata",
   "version": "4.2.5",
   "description": "Stripe Checkout & Elements for Vue.js",
   "author": "jofftiquez@gmail.com",
